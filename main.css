@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #f1f1f1;
+  font-family: "Helvetica", "Arial";
+  width: 100vw;
+  height: 100vh;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.greetings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  cursor: default;
+}
+
+.greetings > div:first-child {
+  border: solid 15px #f1f1f1;
+  padding: 20px;
+  line-height: 85%;
+  text-transform: uppercase;
+  font-size: 200px;
+  font-family: "Work Sans", "Helvetica";
+  font-weight: 900;
+  font-style: normal;
+}
+
+.glitchingBoxes {
+  background-color: #e5e5e5;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.ps {
+  font-family: "Nunito";
+  font-weight: 700;
+  position: absolute;
+  cursor: default;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.about-hidden {
+  position: absolute;
+  font-family: "Work Sans", "Helvetica";
+  font-weight: 400;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.about-expanded {
+  position: absolute;
+  background-color: #333;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column;
+  -webkit-flex-flow: column;
+  text-transform: lowercase;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.about-close {
+  font-family: "Nunito", "Helvetica";
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  font-size: 30px;
+  width: 17px;
+  margin-left: 15px;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.about-text-wrap {
+  display: flex;
+  display: -webkit-flex;
+  flex: 1;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  font-size: 25px;
+  text-align: center;
+}
+
+.about-expanded > div > span {
+  color: #e44141;
+  letter-spacing: 2px;
+}
