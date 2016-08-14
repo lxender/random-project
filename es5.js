@@ -20,7 +20,7 @@ var FUNCTIONS_TO_ANIMATE_ORIGINAL_TIME = [];
 
 //To not get dizzy while working on the page.
 //false = original request loop is "slow" (the time of the slow / 2)
-var DEV_SWITCH_FOR_ORIGINAL = false;
+var DEV_SWITCH_FOR_ORIGINAL = true;
 
 var Greetings = function (_React$Component) {
   _inherits(Greetings, _React$Component);
